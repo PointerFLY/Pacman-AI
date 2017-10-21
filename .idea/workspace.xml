@@ -2,203 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="056837fd-842d-43bf-ac27-e676ff4f8e93" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/tcd_ai.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/VERSION" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/autograder.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/commands.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/eightpuzzle.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/game.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/ghostAgents.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/grading.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/graphicsDisplay.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/graphicsUtils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/keyboardAgents.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layout.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/bigCorners.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/bigMaze.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/bigSafeSearch.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/bigSearch.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/boxSearch.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/capsuleClassic.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/contestClassic.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/contoursMaze.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/greedySearch.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/mediumClassic.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/mediumCorners.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/mediumDottedMaze.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/mediumMaze.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/mediumSafeSearch.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/mediumScaryMaze.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/mediumSearch.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/minimaxClassic.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/oddSearch.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/openClassic.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/openMaze.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/openSearch.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/originalClassic.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/powerClassic.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/smallClassic.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/smallMaze.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/smallSafeSearch.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/smallSearch.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/testClassic.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/testMaze.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/testSearch.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/tinyCorners.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/tinyMaze.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/tinySafeSearch.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/tinySearch.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/trappedClassic.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/trickyClassic.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/trickySearch.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/pacman.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/pacmanAgents.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/projectParams.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/search.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/searchAgents.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/searchTestClasses.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/submission_autograder.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/testClasses.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/testParser.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/CONFIG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q1/CONFIG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q1/graph_backtrack.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q1/graph_backtrack.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q1/graph_bfs_vs_dfs.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q1/graph_bfs_vs_dfs.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q1/graph_infinite.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q1/graph_infinite.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q1/graph_manypaths.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q1/graph_manypaths.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q1/pacman_1.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q1/pacman_1.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q2/CONFIG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q2/graph_backtrack.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q2/graph_backtrack.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q2/graph_bfs_vs_dfs.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q2/graph_bfs_vs_dfs.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q2/graph_infinite.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q2/graph_infinite.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q2/graph_manypaths.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q2/graph_manypaths.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q2/pacman_1.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q2/pacman_1.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/CONFIG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/graph_backtrack.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/graph_backtrack.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/graph_bfs_vs_dfs.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/graph_bfs_vs_dfs.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/graph_infinite.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/graph_infinite.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/graph_manypaths.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/graph_manypaths.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/ucs_0_graph.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/ucs_0_graph.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/ucs_1_problemC.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/ucs_1_problemC.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/ucs_2_problemE.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/ucs_2_problemE.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/ucs_3_problemW.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/ucs_3_problemW.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/ucs_4_testSearch.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/ucs_4_testSearch.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/ucs_5_goalAtDequeue.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/ucs_5_goalAtDequeue.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q4/CONFIG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q4/astar_0.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q4/astar_0.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q4/astar_1_graph_heuristic.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q4/astar_1_graph_heuristic.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q4/astar_2_manhattan.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q4/astar_2_manhattan.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q4/astar_3_goalAtDequeue.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q4/astar_3_goalAtDequeue.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q4/graph_backtrack.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q4/graph_backtrack.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q4/graph_manypaths.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q4/graph_manypaths.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q5/CONFIG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q5/corner_tiny_corner.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q5/corner_tiny_corner.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q6/CONFIG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q6/corner_sanity_1.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q6/corner_sanity_1.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q6/corner_sanity_2.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q6/corner_sanity_2.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q6/corner_sanity_3.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q6/corner_sanity_3.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q6/medium_corners.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q6/medium_corners.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/CONFIG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_1.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_1.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_10.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_10.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_11.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_11.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_12.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_12.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_13.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_13.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_14.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_14.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_15.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_15.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_16.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_16.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_17.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_17.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_2.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_2.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_3.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_3.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_4.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_4.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_5.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_5.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_6.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_6.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_7.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_7.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_8.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_8.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_9.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_9.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_grade_tricky.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_grade_tricky.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/CONFIG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_1.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_1.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_10.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_10.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_11.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_11.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_12.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_12.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_13.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_13.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_2.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_2.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_3.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_3.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_4.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_4.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_5.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_5.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_6.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_6.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_7.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_7.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_8.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_8.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_9.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_9.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/textDisplay.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/util.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -225,12 +30,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pacman.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pacman.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Pacman-AI/search/pacman.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="225">
+              <caret line="15" column="73" lean-forward="true" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/search/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -463,8 +280,8 @@
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/search/util.py" />
         <option value="$PROJECT_DIR$/search/searchAgents.py" />
-        <option value="$PROJECT_DIR$/search/main.py" />
         <option value="$PROJECT_DIR$/search/search.py" />
+        <option value="$PROJECT_DIR$/search/main.py" />
       </list>
     </option>
   </component>
@@ -566,7 +383,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pacman">
+  <component name="RunManager" selected="Python.main">
     <configuration name="autograder" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -664,8 +481,8 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.pacman" />
-        <item index="1" class="java.lang.String" itemvalue="Python.main" />
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.pacman" />
         <item index="2" class="java.lang.String" itemvalue="Python.search" />
         <item index="3" class="java.lang.String" itemvalue="Python.autograder" />
       </list>
@@ -1161,7 +978,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/search/main.py" />
     <entry file="file://$PROJECT_DIR$/search/searchAgents.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2385">
@@ -1187,9 +1003,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Pacman-AI/search/pacman.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="15" column="73" lean-forward="true" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
