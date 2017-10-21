@@ -110,7 +110,8 @@ def depthFirstSearch(problem):
             return node[1]
         successors = problem.getSuccessors(node[0])
         for item in successors:
-            if item[0] in visitedLocation: continue
+            if item[0] in visitedLocation:
+                continue
             fringe.push((item[0], node[1] + [item[1]]))
 
     return None
@@ -131,18 +132,20 @@ def breadthFirstSearch(problem):
     startNode = (startLocation, [])
     fringe.push(startNode)
     visitedLocation = set()
+    visitedLocation.add(startLocation)
 
     while True:
         if fringe.isEmpty():
             return None
         # node[0] is location, while node[1] is path
         node = fringe.pop()
-        visitedLocation.add(node[0])
         if problem.isGoalState(node[0]):
             return node[1]
         successors = problem.getSuccessors(node[0])
         for item in successors:
-            if item[0] in visitedLocation: continue
+            if item[0] in visitedLocation:
+                continue
+            visitedLocation.add(item[0])
             fringe.push((item[0], node[1] + [item[1]]))
 
     return None
