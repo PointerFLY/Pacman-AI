@@ -1,0 +1,1212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="056837fd-842d-43bf-ac27-e676ff4f8e93" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/tcd_ai.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/VERSION" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/autograder.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/commands.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/eightpuzzle.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/game.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/ghostAgents.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/grading.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/graphicsDisplay.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/graphicsUtils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/keyboardAgents.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layout.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/bigCorners.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/bigMaze.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/bigSafeSearch.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/bigSearch.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/boxSearch.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/capsuleClassic.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/contestClassic.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/contoursMaze.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/greedySearch.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/mediumClassic.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/mediumCorners.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/mediumDottedMaze.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/mediumMaze.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/mediumSafeSearch.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/mediumScaryMaze.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/mediumSearch.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/minimaxClassic.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/oddSearch.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/openClassic.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/openMaze.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/openSearch.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/originalClassic.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/powerClassic.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/smallClassic.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/smallMaze.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/smallSafeSearch.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/smallSearch.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/testClassic.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/testMaze.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/testSearch.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/tinyCorners.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/tinyMaze.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/tinySafeSearch.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/tinySearch.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/trappedClassic.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/trickyClassic.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/layouts/trickySearch.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/pacman.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/pacmanAgents.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/projectParams.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/search.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/searchAgents.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/searchTestClasses.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/submission_autograder.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/testClasses.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/testParser.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/CONFIG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q1/CONFIG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q1/graph_backtrack.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q1/graph_backtrack.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q1/graph_bfs_vs_dfs.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q1/graph_bfs_vs_dfs.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q1/graph_infinite.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q1/graph_infinite.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q1/graph_manypaths.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q1/graph_manypaths.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q1/pacman_1.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q1/pacman_1.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q2/CONFIG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q2/graph_backtrack.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q2/graph_backtrack.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q2/graph_bfs_vs_dfs.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q2/graph_bfs_vs_dfs.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q2/graph_infinite.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q2/graph_infinite.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q2/graph_manypaths.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q2/graph_manypaths.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q2/pacman_1.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q2/pacman_1.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/CONFIG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/graph_backtrack.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/graph_backtrack.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/graph_bfs_vs_dfs.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/graph_bfs_vs_dfs.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/graph_infinite.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/graph_infinite.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/graph_manypaths.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/graph_manypaths.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/ucs_0_graph.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/ucs_0_graph.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/ucs_1_problemC.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/ucs_1_problemC.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/ucs_2_problemE.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/ucs_2_problemE.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/ucs_3_problemW.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/ucs_3_problemW.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/ucs_4_testSearch.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/ucs_4_testSearch.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/ucs_5_goalAtDequeue.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q3/ucs_5_goalAtDequeue.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q4/CONFIG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q4/astar_0.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q4/astar_0.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q4/astar_1_graph_heuristic.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q4/astar_1_graph_heuristic.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q4/astar_2_manhattan.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q4/astar_2_manhattan.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q4/astar_3_goalAtDequeue.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q4/astar_3_goalAtDequeue.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q4/graph_backtrack.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q4/graph_backtrack.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q4/graph_manypaths.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q4/graph_manypaths.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q5/CONFIG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q5/corner_tiny_corner.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q5/corner_tiny_corner.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q6/CONFIG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q6/corner_sanity_1.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q6/corner_sanity_1.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q6/corner_sanity_2.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q6/corner_sanity_2.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q6/corner_sanity_3.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q6/corner_sanity_3.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q6/medium_corners.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q6/medium_corners.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/CONFIG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_1.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_1.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_10.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_10.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_11.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_11.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_12.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_12.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_13.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_13.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_14.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_14.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_15.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_15.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_16.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_16.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_17.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_17.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_2.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_2.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_3.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_3.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_4.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_4.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_5.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_5.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_6.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_6.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_7.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_7.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_8.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_8.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_9.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_9.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_grade_tricky.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q7/food_heuristic_grade_tricky.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/CONFIG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_1.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_1.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_10.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_10.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_11.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_11.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_12.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_12.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_13.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_13.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_2.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_2.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_3.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_3.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_4.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_4.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_5.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_5.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_6.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_6.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_7.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_7.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_8.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_8.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_9.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/test_cases/q8/closest_dot_9.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/textDisplay.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search/util.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/tcd_ai$main.coverage" NAME="main Coverage Results" MODIFIED="1508497972825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/search" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="tcd_ai" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="search.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/search/search.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="89">
+              <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pacman.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Pacman-AI/search/pacman.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="game.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/search/game.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2355">
+              <caret line="606" column="0" lean-forward="false" selection-start-line="606" selection-start-column="0" selection-end-line="606" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="e#1115#1138#0" expanded="false" />
+                <element signature="e#1205#1728#0" expanded="false" />
+                <element signature="e#1205#1417#1" expanded="false" />
+                <element signature="e#1459#1477#0" expanded="false" />
+                <element signature="e#1519#1728#0" expanded="false" />
+                <element signature="e#1519#1702#1" expanded="false" />
+                <element signature="e#1752#2200#0" expanded="false" />
+                <element signature="e#1860#2003#0" expanded="false" />
+                <element signature="e#2076#2200#0" expanded="false" />
+                <element signature="e#2227#3787#0" expanded="false" />
+                <element signature="e#2227#2549#1" expanded="false" />
+                <element signature="e#2599#2648#0" expanded="false" />
+                <element signature="e#2685#2702#0" expanded="false" />
+                <element signature="e#2740#2761#0" expanded="false" />
+                <element signature="e#2796#2853#0" expanded="false" />
+                <element signature="e#2892#2999#0" expanded="false" />
+                <element signature="e#3033#3116#0" expanded="false" />
+                <element signature="e#3149#3203#0" expanded="false" />
+                <element signature="e#3254#3787#0" expanded="false" />
+                <element signature="e#3254#3521#1" expanded="false" />
+                <element signature="e#3811#5120#0" expanded="false" />
+                <element signature="e#3811#3902#1" expanded="false" />
+                <element signature="e#3968#4167#0" expanded="false" />
+                <element signature="e#4202#4348#0" expanded="false" />
+                <element signature="e#4389#4530#0" expanded="false" />
+                <element signature="e#4564#4631#0" expanded="false" />
+                <element signature="e#4663#4915#0" expanded="false" />
+                <element signature="e#4952#5042#0" expanded="false" />
+                <element signature="e#5080#5120#0" expanded="false" />
+                <element signature="e#5138#5457#1" expanded="false" />
+                <element signature="e#5549#5886#0" expanded="false" />
+                <element signature="e#5993#6014#0" expanded="false" />
+                <element signature="e#6047#6209#0" expanded="false" />
+                <element signature="e#6248#6317#0" expanded="false" />
+                <element signature="e#6351#6559#0" expanded="false" />
+                <element signature="e#6447#6536#0" expanded="false" />
+                <element signature="e#6475#6536#0" expanded="false" />
+                <element signature="e#6589#6682#0" expanded="false" />
+                <element signature="e#6716#6734#0" expanded="false" />
+                <element signature="e#6771#6848#0" expanded="false" />
+                <element signature="e#6892#6938#0" expanded="false" />
+                <element signature="e#6982#7147#0" expanded="false" />
+                <element signature="e#7040#7127#0" expanded="false" />
+                <element signature="e#7181#7768#0" expanded="false" />
+                <element signature="e#7181#7292#1" expanded="false" />
+                <element signature="e#7419#7709#0" expanded="false" />
+                <element signature="e#7655#7709#0" expanded="false" />
+                <element signature="e#7821#7896#0" expanded="false" />
+                <element signature="e#7939#8294#0" expanded="false" />
+                <element signature="e#7939#8008#1" expanded="false" />
+                <element signature="e#8066#8294#0" expanded="false" />
+                <element signature="e#8138#8294#0" expanded="false" />
+                <element signature="e#8344#8670#0" expanded="false" />
+                <element signature="e#8467#8649#0" expanded="false" />
+                <element signature="e#8549#8595#0" expanded="false" />
+                <element signature="e#8706#8856#0" expanded="false" />
+                <element signature="e#8858#8894#0" expanded="false" />
+                <element signature="e#8989#9066#1" expanded="false" />
+                <element signature="e#9102#9310#0" expanded="false" />
+                <element signature="e#9421#9730#0" expanded="false" />
+                <element signature="e#9829#10093#0" expanded="false" />
+                <element signature="e#10399#10896#0" expanded="false" />
+                <element signature="e#10732#10871#0" expanded="false" />
+                <element signature="e#11160#11436#0" expanded="false" />
+                <element signature="e#11567#11665#0" expanded="false" />
+                <element signature="e#11738#11750#1" expanded="false" />
+                <element signature="e#11803#11899#1" expanded="false" />
+                <element signature="e#11942#12236#0" expanded="false" />
+                <element signature="e#12483#12801#0" expanded="false" />
+                <element signature="e#12857#12994#0" expanded="false" />
+                <element signature="e#13035#13426#0" expanded="false" />
+                <element signature="e#13035#13092#1" expanded="false" />
+                <element signature="e#13462#13859#0" expanded="false" />
+                <element signature="e#13462#13527#1" expanded="false" />
+                <element signature="e#13595#13718#0" expanded="false" />
+                <element signature="e#13682#13718#0" expanded="false" />
+                <element signature="e#13894#14848#0" expanded="false" />
+                <element signature="e#14120#14273#0" expanded="false" />
+                <element signature="e#14160#14273#0" expanded="false" />
+                <element signature="e#14331#14726#0" expanded="false" />
+                <element signature="e#14906#15022#0" expanded="false" />
+                <element signature="e#15062#15248#0" expanded="false" />
+                <element signature="e#15290#15495#0" expanded="false" />
+                <element signature="e#15557#16250#0" expanded="false" />
+                <element signature="e#15557#15647#1" expanded="false" />
+                <element signature="e#15956#16194#0" expanded="false" />
+                <element signature="e#15989#16095#0" expanded="false" />
+                <element signature="e#16261#16299#0" expanded="false" />
+                <element signature="e#16352#16434#1" expanded="false" />
+                <element signature="e#16552#17097#0" expanded="false" />
+                <element signature="e#17134#17236#0" expanded="false" />
+                <element signature="e#17299#17495#0" expanded="false" />
+                <element signature="e#17582#17839#0" expanded="false" />
+                <element signature="e#18079#18135#1" expanded="false" />
+                <element signature="e#18220#18282#0" expanded="false" />
+                <element signature="e#18453#18736#0" expanded="false" />
+                <element signature="e#18482#18531#0" expanded="false" />
+                <element signature="e#18882#19788#0" expanded="false" />
+                <element signature="e#18911#19619#0" expanded="false" />
+                <element signature="e#19063#19281#0" expanded="false" />
+                <element signature="e#19367#19619#0" expanded="false" />
+                <element signature="e#19687#19788#0" expanded="false" />
+                <element signature="e#20095#24998#0" expanded="false" />
+                <element signature="e#20341#21227#0" expanded="false" />
+                <element signature="e#20424#21092#0" expanded="false" />
+                <element signature="e#20453#20914#0" expanded="false" />
+                <element signature="e#20610#20710#0" expanded="false" />
+                <element signature="e#20982#21092#0" expanded="false" />
+                <element signature="e#21444#23764#0" expanded="false" />
+                <element signature="e#21469#23615#0" expanded="false" />
+                <element signature="e#21625#21809#0" expanded="false" />
+                <element signature="e#21887#22141#0" expanded="false" />
+                <element signature="e#22304#22978#0" expanded="false" />
+                <element signature="e#22649#22978#0" expanded="false" />
+                <element signature="e#23288#23581#0" expanded="false" />
+                <element signature="e#23675#23764#0" expanded="false" />
+                <element signature="e#24010#24289#0" expanded="false" />
+                <element signature="e#24158#24289#0" expanded="false" />
+                <element signature="e#24485#24525#0" expanded="false" />
+                <element signature="e#25112#25487#0" expanded="false" />
+                <element signature="e#25157#25487#0" expanded="false" />
+                <element signature="e#25182#25283#0" expanded="false" />
+                <element signature="e#25343#25487#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="searchAgents.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/search/searchAgents.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2385">
+              <caret line="170" column="0" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="e#1354#1381#0" expanded="true" />
+                <element signature="e#20755#21434#0" expanded="false" />
+                <element signature="e#20755#21098#1" expanded="false" />
+                <marker date="1472244266000" expanded="true" signature="10479:11385" ph="..." />
+                <marker date="1472244266000" expanded="true" signature="10680:11385" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pacman.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/search/pacman.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7635">
+              <caret line="645" column="0" lean-forward="false" selection-start-line="645" selection-start-column="0" selection-end-line="645" selection-end-column="0" />
+              <folding>
+                <element signature="e#9343#11137#0" expanded="false" />
+                <element signature="e#13291#16572#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>agentOpts</find>
+      <find>loadAge</find>
+      <find>opts</find>
+      <find>searchAgent</find>
+      <find>FoodSearchProblem</find>
+      <find>AnyFoodSe</find>
+      <find>anyFoodSe</find>
+      <find>AnyFood</find>
+      <find>prob</find>
+      <find>readCom</find>
+      <find>args</find>
+      <find>action</find>
+      <find>9999</find>
+      <find>Illegal</find>
+      <find>legal</find>
+      <find>lam</find>
+      <find>lamb</find>
+      <find>walls</find>
+      <find>getStartState</find>
+      <find>self.start</find>
+      <find>hasFood</find>
+      <find>get</find>
+      <find>CornersProblem(</find>
+      <find>costFn</find>
+      <find>path found</find>
+      <find>#util</find>
+      <find>YOuR Code</find>
+      <find>print</find>
+      <find>3</find>
+      <find>current_s</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/search.py" />
+        <option value="$PROJECT_DIR$/searchAgent.py" />
+        <option value="$PROJECT_DIR$/pacman.py" />
+        <option value="$PROJECT_DIR$/game.py" />
+        <option value="$PROJECT_DIR$/util.py" />
+        <option value="$PROJECT_DIR$/src/util.py" />
+        <option value="$PROJECT_DIR$/src/pacman.py" />
+        <option value="$PROJECT_DIR$/src/game.py" />
+        <option value="$PROJECT_DIR$/src/pacman/autograder.py" />
+        <option value="$PROJECT_DIR$/search/pacman/__init__.py" />
+        <option value="$PROJECT_DIR$/search/__init__.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/search/util.py" />
+        <option value="$PROJECT_DIR$/search/searchAgents.py" />
+        <option value="$PROJECT_DIR$/search/main.py" />
+        <option value="$PROJECT_DIR$/search/search.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="793" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyCompatibilityInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tcd_ai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tcd_ai" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tcd_ai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tcd_ai" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/search" />
+      <recent name="$PROJECT_DIR$/src/pacman" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.pacman">
+    <configuration name="autograder" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/search" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tcd_ai" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/search/autograder.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/search" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tcd_ai" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/search/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="pacman" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/search" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tcd_ai" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/search/pacman.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="pacman" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/search/pacman" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tcd_ai" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/search/pacman.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="search" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/search" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tcd_ai" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/search/search.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Python.pacman" />
+      <item index="1" class="java.lang.String" itemvalue="Python.autograder" />
+      <item index="2" class="java.lang.String" itemvalue="Python.search" />
+      <item index="3" class="java.lang.String" itemvalue="Python.main" />
+    </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.pacman" />
+        <item index="1" class="java.lang.String" itemvalue="Python.main" />
+        <item index="2" class="java.lang.String" itemvalue="Python.search" />
+        <item index="3" class="java.lang.String" itemvalue="Python.autograder" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="056837fd-842d-43bf-ac27-e676ff4f8e93" name="Default" comment="" />
+      <created>1507820843290</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1507820843290</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="793" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22532189" sideWeight="0.486166" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25037038" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26074073" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28444445" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17777778" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3362963" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22246066" sideWeight="0.513834" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="67" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/pacman/keyboardAgents.py" />
+    <entry file="file://$PROJECT_DIR$/src/pacman/grading.py" />
+    <entry file="file://$PROJECT_DIR$/src/testClasses.py" />
+    <entry file="file://$PROJECT_DIR$/src/test_cases/q1/graph_backtrack.test" />
+    <entry file="file://$PROJECT_DIR$/src/test_cases/q1/graph_backtrack.solution" />
+    <entry file="file://$PROJECT_DIR$/src/searchAgents.py" />
+    <entry file="file://$PROJECT_DIR$/src/pacman.py" />
+    <entry file="file://$PROJECT_DIR$/src/VERSION" />
+    <entry file="file://$PROJECT_DIR$/src/util.py" />
+    <entry file="file://$PROJECT_DIR$/src/commands.txt" />
+    <entry file="file://$PROJECT_DIR$/src/search.py" />
+    <entry file="file://$PROJECT_DIR$/src/pacman/autograder.py" />
+    <entry file="file://$PROJECT_DIR$/src/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search/pacman/autograder.py" />
+    <entry file="file://$PROJECT_DIR$/search/pacman/keyboardAgents.py" />
+    <entry file="file://$PROJECT_DIR$/search/layouts/bigCorners.lay">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search/layouts/boxSearch.lay">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search/pacman/eightpuzzle.py" />
+    <entry file="file://$PROJECT_DIR$/search/pacman/ghostAgents.py" />
+    <entry file="file://$PROJECT_DIR$/search/pacman/graphicsDisplay.py" />
+    <entry file="file://$PROJECT_DIR$/search/pacman/graphicsUtils.py" />
+    <entry file="file://$PROJECT_DIR$/search/pacman/pacman.py" />
+    <entry file="file://$PROJECT_DIR$/search/pacman/testClasses.py" />
+    <entry file="file://$PROJECT_DIR$/search/pacman/util.py" />
+    <entry file="file://$PROJECT_DIR$/search/test_cases/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/search/pacman/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/search/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/search/grading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1044">
+          <caret line="100" column="51" lean-forward="false" selection-start-line="100" selection-start-column="51" selection-end-line="100" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search/ghostAgents.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search/projectParams.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2/typing.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="212" column="8" lean-forward="false" selection-start-line="212" selection-start-column="8" selection-end-line="212" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search/pacmanAgents.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search/keyboardAgents.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search/test_cases/q7/food_heuristic_6.test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search/test_cases/q7/food_heuristic_grade_tricky.test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search/test_cases/q7/food_heuristic_9.test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search/graphicsDisplay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5700">
+          <caret line="382" column="39" lean-forward="false" selection-start-line="382" selection-start-column="39" selection-end-line="382" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/optparse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17820">
+          <caret line="1190" column="8" lean-forward="false" selection-start-line="1190" selection-start-column="8" selection-end-line="1190" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2017.2/python_stubs/-2125986627/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="2057" column="34" lean-forward="false" selection-start-line="2057" selection-start-column="34" selection-end-line="2057" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search/commands.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search/autograder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="281" column="50" lean-forward="false" selection-start-line="281" selection-start-column="50" selection-end-line="281" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search/eightpuzzle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="153" column="8" lean-forward="false" selection-start-line="153" selection-start-column="8" selection-end-line="153" selection-end-column="8" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#1381#10695#0" expanded="false" />
+            <element signature="e#1409#10695#0" expanded="false" />
+            <element signature="e#1423#10615#0" expanded="false" />
+            <element signature="e#1427#10608#0" expanded="false" />
+            <element signature="e#10697#10758#1" expanded="false" />
+            <element signature="e#10871#10885#0" expanded="false" />
+            <element signature="e#10920#10979#0" expanded="false" />
+            <element signature="e#11008#11089#0" expanded="false" />
+            <element signature="e#11122#11193#0" expanded="false" />
+            <element signature="e#11453#11591#1" expanded="false" />
+            <element signature="e#11753#13068#0" expanded="false" />
+            <element signature="e#11753#12051#1" expanded="false" />
+            <element signature="e#12085#12122#0" expanded="false" />
+            <element signature="e#12168#12269#0" expanded="false" />
+            <element signature="e#12298#12357#0" expanded="false" />
+            <element signature="e#12390#12416#0" expanded="false" />
+            <element signature="e#12464#13068#0" expanded="false" />
+            <element signature="e#12464#12563#0" expanded="false" />
+            <element signature="e#12789#13016#0" expanded="false" />
+            <element signature="e#12819#13016#0" expanded="false" />
+            <element signature="e#13122#13394#1" expanded="false" />
+            <element signature="e#13971#14109#1" expanded="false" />
+            <element signature="e#14136#19957#0" expanded="false" />
+            <element signature="e#14136#15345#1" expanded="false" />
+            <element signature="e#15386#15452#0" expanded="false" />
+            <element signature="e#15503#15776#0" expanded="false" />
+            <element signature="e#15503#15720#1" expanded="false" />
+            <element signature="e#15808#16058#0" expanded="false" />
+            <element signature="e#15808#15871#1" expanded="false" />
+            <element signature="e#16094#16561#0" expanded="false" />
+            <element signature="e#16094#16395#1" expanded="false" />
+            <element signature="e#16597#16694#0" expanded="false" />
+            <element signature="e#16597#16660#1" expanded="false" />
+            <element signature="e#16729#17108#0" expanded="false" />
+            <element signature="e#16729#16963#1" expanded="false" />
+            <element signature="e#17152#17296#0" expanded="false" />
+            <element signature="e#17152#17205#1" expanded="false" />
+            <element signature="e#17326#17419#0" expanded="false" />
+            <element signature="e#17326#17379#1" expanded="false" />
+            <element signature="e#17456#18061#0" expanded="false" />
+            <element signature="e#17456#17848#1" expanded="false" />
+            <element signature="e#17966#18042#0" expanded="false" />
+            <element signature="e#18098#18523#0" expanded="false" />
+            <element signature="e#18098#18455#1" expanded="false" />
+            <element signature="e#18561#19226#0" expanded="false" />
+            <element signature="e#18561#18912#1" expanded="false" />
+            <element signature="e#18977#19096#0" expanded="false" />
+            <element signature="e#19131#19204#0" expanded="false" />
+            <element signature="e#19264#19957#0" expanded="false" />
+            <element signature="e#19264#19638#1" expanded="false" />
+            <element signature="e#19703#19822#0" expanded="false" />
+            <element signature="e#19857#19935#0" expanded="false" />
+            <element signature="e#19986#20190#0" expanded="false" />
+            <element signature="e#20228#20828#0" expanded="false" />
+            <element signature="e#20228#20321#1" expanded="false" />
+            <element signature="e#20421#20680#0" expanded="false" />
+            <element signature="e#20576#20647#0" expanded="false" />
+            <element signature="e#20699#20828#0" expanded="false" />
+            <element signature="e#20872#21305#0" expanded="false" />
+            <element signature="e#21110#21286#0" expanded="false" />
+            <element signature="e#21148#21206#0" expanded="false" />
+            <element signature="e#21233#21286#0" expanded="false" />
+            <element signature="e#21352#21749#0" expanded="false" />
+            <element signature="e#21394#21514#0" expanded="false" />
+            <element signature="e#21689#21728#0" expanded="false" />
+            <element signature="e#21783#21872#0" expanded="false" />
+            <element signature="e#21927#22181#0" expanded="false" />
+            <element signature="e#21927#22049#1" expanded="false" />
+            <element signature="e#22122#22164#0" expanded="false" />
+            <element signature="e#22206#22242#0" expanded="false" />
+            <element signature="e#22292#22599#0" expanded="false" />
+            <element signature="e#22550#22599#0" expanded="false" />
+            <element signature="e#22630#22857#0" expanded="false" />
+            <element signature="e#22630#22703#1" expanded="false" />
+            <element signature="e#22878#22999#0" expanded="false" />
+            <element signature="e#22878#22936#1" expanded="false" />
+            <element signature="e#23029#23250#0" expanded="false" />
+            <element signature="e#23029#23088#1" expanded="false" />
+            <element signature="e#23154#23232#0" expanded="false" />
+            <element signature="e#23298#23616#0" expanded="false" />
+            <element signature="e#23298#23384#1" expanded="false" />
+            <element signature="e#23487#23599#0" expanded="false" />
+            <element signature="e#23525#23599#0" expanded="false" />
+            <element signature="e#23651#24428#0" expanded="false" />
+            <element signature="e#23651#23771#1" expanded="false" />
+            <element signature="e#23824#23977#0" expanded="false" />
+            <element signature="e#23996#24428#0" expanded="false" />
+            <element signature="e#24447#24572#0" expanded="false" />
+            <element signature="e#24447#24511#1" expanded="false" />
+            <element signature="e#24575#24600#0" expanded="false" />
+            <element signature="e#24947#24993#0" expanded="false" />
+            <element signature="e#25023#26062#0" expanded="false" />
+            <element signature="e#25070#25125#0" expanded="false" />
+            <element signature="e#25180#25212#0" expanded="false" />
+            <element signature="e#25264#26062#0" expanded="false" />
+            <element signature="e#25264#25328#0" expanded="false" />
+            <element signature="e#25526#25795#0" expanded="false" />
+            <element signature="e#25822#26040#0" expanded="false" />
+            <element signature="e#26154#26191#0" expanded="false" />
+            <element signature="e#26187#26191#0" expanded="false" />
+            <element signature="e#26214#26446#0" expanded="false" />
+            <element signature="e#26471#26643#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search/game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2355">
+          <caret line="606" column="0" lean-forward="false" selection-start-line="606" selection-start-column="0" selection-end-line="606" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#1115#1138#0" expanded="false" />
+            <element signature="e#1205#1728#0" expanded="false" />
+            <element signature="e#1205#1417#1" expanded="false" />
+            <element signature="e#1459#1477#0" expanded="false" />
+            <element signature="e#1519#1728#0" expanded="false" />
+            <element signature="e#1519#1702#1" expanded="false" />
+            <element signature="e#1752#2200#0" expanded="false" />
+            <element signature="e#1860#2003#0" expanded="false" />
+            <element signature="e#2076#2200#0" expanded="false" />
+            <element signature="e#2227#3787#0" expanded="false" />
+            <element signature="e#2227#2549#1" expanded="false" />
+            <element signature="e#2599#2648#0" expanded="false" />
+            <element signature="e#2685#2702#0" expanded="false" />
+            <element signature="e#2740#2761#0" expanded="false" />
+            <element signature="e#2796#2853#0" expanded="false" />
+            <element signature="e#2892#2999#0" expanded="false" />
+            <element signature="e#3033#3116#0" expanded="false" />
+            <element signature="e#3149#3203#0" expanded="false" />
+            <element signature="e#3254#3787#0" expanded="false" />
+            <element signature="e#3254#3521#1" expanded="false" />
+            <element signature="e#3811#5120#0" expanded="false" />
+            <element signature="e#3811#3902#1" expanded="false" />
+            <element signature="e#3968#4167#0" expanded="false" />
+            <element signature="e#4202#4348#0" expanded="false" />
+            <element signature="e#4389#4530#0" expanded="false" />
+            <element signature="e#4564#4631#0" expanded="false" />
+            <element signature="e#4663#4915#0" expanded="false" />
+            <element signature="e#4952#5042#0" expanded="false" />
+            <element signature="e#5080#5120#0" expanded="false" />
+            <element signature="e#5138#5457#1" expanded="false" />
+            <element signature="e#5549#5886#0" expanded="false" />
+            <element signature="e#5993#6014#0" expanded="false" />
+            <element signature="e#6047#6209#0" expanded="false" />
+            <element signature="e#6248#6317#0" expanded="false" />
+            <element signature="e#6351#6559#0" expanded="false" />
+            <element signature="e#6447#6536#0" expanded="false" />
+            <element signature="e#6475#6536#0" expanded="false" />
+            <element signature="e#6589#6682#0" expanded="false" />
+            <element signature="e#6716#6734#0" expanded="false" />
+            <element signature="e#6771#6848#0" expanded="false" />
+            <element signature="e#6892#6938#0" expanded="false" />
+            <element signature="e#6982#7147#0" expanded="false" />
+            <element signature="e#7040#7127#0" expanded="false" />
+            <element signature="e#7181#7768#0" expanded="false" />
+            <element signature="e#7181#7292#1" expanded="false" />
+            <element signature="e#7419#7709#0" expanded="false" />
+            <element signature="e#7655#7709#0" expanded="false" />
+            <element signature="e#7821#7896#0" expanded="false" />
+            <element signature="e#7939#8294#0" expanded="false" />
+            <element signature="e#7939#8008#1" expanded="false" />
+            <element signature="e#8066#8294#0" expanded="false" />
+            <element signature="e#8138#8294#0" expanded="false" />
+            <element signature="e#8344#8670#0" expanded="false" />
+            <element signature="e#8467#8649#0" expanded="false" />
+            <element signature="e#8549#8595#0" expanded="false" />
+            <element signature="e#8706#8856#0" expanded="false" />
+            <element signature="e#8858#8894#0" expanded="false" />
+            <element signature="e#8989#9066#1" expanded="false" />
+            <element signature="e#9102#9310#0" expanded="false" />
+            <element signature="e#9421#9730#0" expanded="false" />
+            <element signature="e#9829#10093#0" expanded="false" />
+            <element signature="e#10399#10896#0" expanded="false" />
+            <element signature="e#10732#10871#0" expanded="false" />
+            <element signature="e#11160#11436#0" expanded="false" />
+            <element signature="e#11567#11665#0" expanded="false" />
+            <element signature="e#11738#11750#1" expanded="false" />
+            <element signature="e#11803#11899#1" expanded="false" />
+            <element signature="e#11942#12236#0" expanded="false" />
+            <element signature="e#12483#12801#0" expanded="false" />
+            <element signature="e#12857#12994#0" expanded="false" />
+            <element signature="e#13035#13426#0" expanded="false" />
+            <element signature="e#13035#13092#1" expanded="false" />
+            <element signature="e#13462#13859#0" expanded="false" />
+            <element signature="e#13462#13527#1" expanded="false" />
+            <element signature="e#13595#13718#0" expanded="false" />
+            <element signature="e#13682#13718#0" expanded="false" />
+            <element signature="e#13894#14848#0" expanded="false" />
+            <element signature="e#14120#14273#0" expanded="false" />
+            <element signature="e#14160#14273#0" expanded="false" />
+            <element signature="e#14331#14726#0" expanded="false" />
+            <element signature="e#14906#15022#0" expanded="false" />
+            <element signature="e#15062#15248#0" expanded="false" />
+            <element signature="e#15290#15495#0" expanded="false" />
+            <element signature="e#15557#16250#0" expanded="false" />
+            <element signature="e#15557#15647#1" expanded="false" />
+            <element signature="e#15956#16194#0" expanded="false" />
+            <element signature="e#15989#16095#0" expanded="false" />
+            <element signature="e#16261#16299#0" expanded="false" />
+            <element signature="e#16352#16434#1" expanded="false" />
+            <element signature="e#16552#17097#0" expanded="false" />
+            <element signature="e#17134#17236#0" expanded="false" />
+            <element signature="e#17299#17495#0" expanded="false" />
+            <element signature="e#17582#17839#0" expanded="false" />
+            <element signature="e#18079#18135#1" expanded="false" />
+            <element signature="e#18220#18282#0" expanded="false" />
+            <element signature="e#18453#18736#0" expanded="false" />
+            <element signature="e#18482#18531#0" expanded="false" />
+            <element signature="e#18882#19788#0" expanded="false" />
+            <element signature="e#18911#19619#0" expanded="false" />
+            <element signature="e#19063#19281#0" expanded="false" />
+            <element signature="e#19367#19619#0" expanded="false" />
+            <element signature="e#19687#19788#0" expanded="false" />
+            <element signature="e#20095#24998#0" expanded="false" />
+            <element signature="e#20341#21227#0" expanded="false" />
+            <element signature="e#20424#21092#0" expanded="false" />
+            <element signature="e#20453#20914#0" expanded="false" />
+            <element signature="e#20610#20710#0" expanded="false" />
+            <element signature="e#20982#21092#0" expanded="false" />
+            <element signature="e#21444#23764#0" expanded="false" />
+            <element signature="e#21469#23615#0" expanded="false" />
+            <element signature="e#21625#21809#0" expanded="false" />
+            <element signature="e#21887#22141#0" expanded="false" />
+            <element signature="e#22304#22978#0" expanded="false" />
+            <element signature="e#22649#22978#0" expanded="false" />
+            <element signature="e#23288#23581#0" expanded="false" />
+            <element signature="e#23675#23764#0" expanded="false" />
+            <element signature="e#24010#24289#0" expanded="false" />
+            <element signature="e#24158#24289#0" expanded="false" />
+            <element signature="e#24485#24525#0" expanded="false" />
+            <element signature="e#25112#25487#0" expanded="false" />
+            <element signature="e#25157#25487#0" expanded="false" />
+            <element signature="e#25182#25283#0" expanded="false" />
+            <element signature="e#25343#25487#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search/pacman.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7635">
+          <caret line="645" column="0" lean-forward="false" selection-start-line="645" selection-start-column="0" selection-end-line="645" selection-end-column="0" />
+          <folding>
+            <element signature="e#9343#11137#0" expanded="false" />
+            <element signature="e#13291#16572#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search/main.py" />
+    <entry file="file://$PROJECT_DIR$/search/searchAgents.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2385">
+          <caret line="170" column="0" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#1354#1381#0" expanded="true" />
+            <element signature="e#20755#21434#0" expanded="false" />
+            <element signature="e#20755#21098#1" expanded="false" />
+            <marker date="1472244266000" expanded="true" signature="10479:11385" ph="..." />
+            <marker date="1472244266000" expanded="true" signature="10680:11385" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search/search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Pacman-AI/search/pacman.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
