@@ -198,13 +198,12 @@ def aStarSearch(problem, heuristic=nullHeuristic):
     Every node remembers the path represented by directions
     For example, ([10, 10], ['South', 'North', 'West', 'West', ...]
     """
-    # Needs a heuristic function to determine priority
-    fringe = util.PriorityQueueWithFunction(heuristic)
+    fringe = util.PriorityQueue()
     # Just location, like [7, 7]
     startLocation = problem.getStartState()
-    # (location, path)
-    startNode = (startLocation, [])
-    fringe.push(startNode)
+    # (location, path, cost)
+    startNode = (startLocation, [], 0)
+    fringe.push(startNode, 0)
     visitedLocation = set()
 
     while True:
@@ -218,7 +217,8 @@ def aStarSearch(problem, heuristic=nullHeuristic):
         successors = problem.getSuccessors(node[0])
         for item in successors:
             if item[0] in visitedLocation: continue
-            fringe.push((item[0], node[1] + [item[1]]))
+            cost = node[2] + item[2]
+            fringe.push((item[0], node[1] + [item[1]], cost), cost + heuristic(item[0], problem))
 
     return None
 
