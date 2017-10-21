@@ -14,7 +14,7 @@ argvStrList[6] = "-l trickySearch -p SearchAgent -a fn=astar,prob=FoodSearchProb
 argvStrList[7] = "-l bigSearch -p ClosestDotSearchAgent -z 0.5 --frameTime 0"
 
 for idx, argvStr in enumerate(argvStrList):
-    if idx > 0:
+    if idx > 3:
         break
     print "********", idx, "*********"
     argvList = argvStr.split(" ")

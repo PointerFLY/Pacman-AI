@@ -87,17 +87,101 @@ def depthFirstSearch(problem):
     print "Start's successors:", problem.getSuccessors(problem.getStartState())
     """
     "*** YOUR CODE HERE ***"
-    util.raiseNotDefined()
+
+    print "StartLocation:", problem.getStartState()
+    print "Is the start a goal?", problem.isGoalState(problem.getStartState())
+    print "Start's successors:", problem.getSuccessors(problem.getStartState())
+
+    """
+    Every node remembers the path represented by directions
+    For example, ([10, 10], ['South', 'North', 'West', 'West', ...]
+    """
+    fringe = util.Stack()
+    # Just location, like [7, 7]
+    startLocation = problem.getStartState()
+    # (location, path)
+    startNode = (startLocation, [])
+    fringe.push(startNode)
+    visitedLocation = set()
+
+    while True:
+        if fringe.isEmpty():
+            return None
+        # node[0] is location, while node[1] is path
+        node = fringe.pop()
+        visitedLocation.add(node[0])
+        if problem.isGoalState(node[0]):
+            return node[1]
+        successors = problem.getSuccessors(node[0])
+        for item in successors:
+            if item[0] in visitedLocation: continue
+            fringe.push((item[0], node[1] + [item[1]]))
+
+    return None
+
 
 def breadthFirstSearch(problem):
     """Search the shallowest nodes in the search tree first."""
     "*** YOUR CODE HERE ***"
-    util.raiseNotDefined()
+
+    """
+    Every node remembers the path represented by directions
+    For example, ([10, 10], ['South', 'North', 'West', 'West', ...]
+    """
+    fringe = util.Queue()
+    # Just location, like [7, 7]
+    startLocation = problem.getStartState()
+    # (location, path)
+    startNode = (startLocation, [])
+    fringe.push(startNode)
+    visitedLocation = set()
+
+    while True:
+        if fringe.isEmpty():
+            return None
+        # node[0] is location, while node[1] is path
+        node = fringe.pop()
+        visitedLocation.add(node[0])
+        if problem.isGoalState(node[0]):
+            return node[1]
+        successors = problem.getSuccessors(node[0])
+        for item in successors:
+            if item[0] in visitedLocation: continue
+            fringe.push((item[0], node[1] + [item[1]]))
+
+    return None
 
 def uniformCostSearch(problem):
     """Search the node of least total cost first."""
     "*** YOUR CODE HERE ***"
-    util.raiseNotDefined()
+
+    """
+    Every node remembers the path represented by directions
+    For example, ([10, 10], ['South', 'North', 'West', 'West', ...]
+    """
+    fringe = util.PriorityQueue()
+    # Just location, like [7, 7]
+    startLocation = problem.getStartState()
+    # (location, path)
+    startNode = (startLocation, [])
+    # Push path cost as priority
+    fringe.push(startNode, 0)
+    visitedLocation = set()
+
+    while True:
+        if fringe.isEmpty():
+            return None
+        # node[0] is location, while node[1] is path
+        node = fringe.pop()
+        visitedLocation.add(node[0])
+        if problem.isGoalState(node[0]):
+            return node[1]
+        successors = problem.getSuccessors(node[0])
+        for item in successors:
+            if item[0] in visitedLocation: continue
+            fringe.push((item[0], node[1] + [item[1]]), item[2])
+
+    return None
 
 def nullHeuristic(state, problem=None):
     """
@@ -109,7 +193,34 @@ def nullHeuristic(state, problem=None):
 def aStarSearch(problem, heuristic=nullHeuristic):
     """Search the node that has the lowest combined cost and heuristic first."""
     "*** YOUR CODE HERE ***"
-    util.raiseNotDefined()
+
+    """
+    Every node remembers the path represented by directions
+    For example, ([10, 10], ['South', 'North', 'West', 'West', ...]
+    """
+    # Needs a heuristic function to determine priority
+    fringe = util.PriorityQueueWithFunction(heuristic)
+    # Just location, like [7, 7]
+    startLocation = problem.getStartState()
+    # (location, path)
+    startNode = (startLocation, [])
+    fringe.push(startNode)
+    visitedLocation = set()
+
+    while True:
+        if fringe.isEmpty():
+            return None
+        # node[0] is location, while node[1] is path
+        node = fringe.pop()
+        visitedLocation.add(node[0])
+        if problem.isGoalState(node[0]):
+            return node[1]
+        successors = problem.getSuccessors(node[0])
+        for item in successors:
+            if item[0] in visitedLocation: continue
+            fringe.push((item[0], node[1] + [item[1]]))
+
+    return None
 
 
 # Abbreviations
