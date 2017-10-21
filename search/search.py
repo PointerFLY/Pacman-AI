@@ -171,7 +171,7 @@ def uniformCostSearch(problem):
     while True:
         if fringe.isEmpty():
             return None
-        # node[0] is location, while node[1] is path
+        # node[0] is location, while node[1] is path, while node[2] is cumulative cost
         node = fringe.pop()
         visitedLocation.add(node[0])
         if problem.isGoalState(node[0]):
@@ -209,7 +209,7 @@ def aStarSearch(problem, heuristic=nullHeuristic):
     while True:
         if fringe.isEmpty():
             return None
-        # node[0] is location, while node[1] is path
+        # node[0] is location, while node[1] is path, while node[2] is cumulative cost
         node = fringe.pop()
         visitedLocation.add(node[0])
         if problem.isGoalState(node[0]):
@@ -217,6 +217,7 @@ def aStarSearch(problem, heuristic=nullHeuristic):
         successors = problem.getSuccessors(node[0])
         for item in successors:
             if item[0] in visitedLocation: continue
+            # Accumulate cost, and add heuristic cost for priority sort
             cost = node[2] + item[2]
             fringe.push((item[0], node[1] + [item[1]], cost), cost + heuristic(item[0], problem))
 
