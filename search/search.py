@@ -151,6 +151,7 @@ def breadthFirstSearch(problem):
 
     return None
 
+
 def uniformCostSearch(problem):
     """Search the node of least total cost first."""
     "*** YOUR CODE HERE ***"
