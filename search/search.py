@@ -88,10 +88,6 @@ def depthFirstSearch(problem):
     """
     "*** YOUR CODE HERE ***"
 
-    print "StartLocation:", problem.getStartState()
-    print "Is the start a goal?", problem.isGoalState(problem.getStartState())
-    print "Start's successors:", problem.getSuccessors(problem.getStartState())
-
     """
     Every node remembers the path represented by directions
     For example, ([10, 10], ['South', 'North', 'West', 'West', ...]
@@ -150,7 +146,6 @@ def breadthFirstSearch(problem):
             fringe.push((item[0], node[1] + [item[1]]))
 
     return None
-
 
 def uniformCostSearch(problem):
     """Search the node of least total cost first."""
