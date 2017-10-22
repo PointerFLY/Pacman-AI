@@ -4,7 +4,7 @@
 # educational purposes provided that (1) you do not distribute or publish
 # solutions, (2) you retain this notice, and (3) you provide clear
 # attribution to UC Berkeley, including a link to http://ai.berkeley.edu.
-# 
+#
 # Attribution Information: The Pacman AI projects were developed at UC Berkeley.
 # The core projects and autograders were primarily created by John DeNero
 # (denero@cs.berkeley.edu) and Dan Klein (klein@cs.berkeley.edu).
@@ -386,7 +386,21 @@ def cornersHeuristic(state, problem):
     walls = problem.walls # These are the walls of the maze, as a Grid (game.py)
 
     "*** YOUR CODE HERE ***"
-    return 0 # Default to trivial solution
+
+    location = state[0]
+    cornersIndexes = state[1]
+    cornersLeft = list()
+    for idx in cornersIndexes:
+        cornersLeft.append(corners[idx])
+
+    heuristic = 0
+    for corner in corners:
+        distance = util.manhattanDistance(location, corner)
+        distance = pow((pow(location[0] - corner[0], 2) + pow(location[1] - corner[1], 2)), 0.5)
+        heuristic += distance
+
+    return heuristic
+
 
 class AStarCornersAgent(SearchAgent):
     "A SearchAgent for FoodSearchProblem using A* and your foodHeuristic"
