@@ -526,7 +526,8 @@ class ClosestDotSearchAgent(SearchAgent):
 
         "*** YOUR CODE HERE ***"
 
-        return search.breadthFirstSearch(problem)
+        # ucs, astar works fine, but bfs is the best and more straightforward
+        return search.bfs(problem)
 
 class AnyFoodSearchProblem(PositionSearchProblem):
     """
