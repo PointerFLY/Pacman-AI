@@ -161,26 +161,37 @@ def uniformCostSearch(problem):
     fringe = util.PriorityQueue()
     # Just location, like [7, 7]
     startLocation = problem.getStartState()
-    # (location, path)
-    startNode = (startLocation, [])
-    # Push path cost as priority
+    # (location, path, cost)
+    startNode = (startLocation, [], 0)
     fringe.push(startNode, 0)
-    visitedLocation = set()
+    visitedNode = dict()
+    # [location: cost]
+    visitedNode[startLocation] = 0
 
     while True:
         if fringe.isEmpty():
             return None
         # node[0] is location, while node[1] is path, while node[2] is cumulative cost
         node = fringe.pop()
-        visitedLocation.add(node[0])
+        # visitedNode.add(node[0])
         if problem.isGoalState(node[0]):
             return node[1]
         successors = problem.getSuccessors(node[0])
         for item in successors:
-            if item[0] in visitedLocation: continue
-            fringe.push((item[0], node[1] + [item[1]]), item[2])
+            # Cumulative cost
+            cost = node[2] + item[2]
+            isVisited = item[0] in visitedNode.keys()
+            badChoice = cost > visitedNode.get(item[0])
+            # If new node is visited and its cost is bigger than previous path, ignore.
+            if not (isVisited and badChoice):
+                visitedNode[item[0]] = cost
+                if isVisited:
+                    fringe.update((item[0], node[1] + [item[1]], cost), cost)
+                else:
+                    fringe.push((item[0], node[1] + [item[1]], cost), cost)
 
     return None
+
 
 def nullHeuristic(state, problem=None):
     """
@@ -203,22 +214,31 @@ def aStarSearch(problem, heuristic=nullHeuristic):
     # (location, path, cost)
     startNode = (startLocation, [], 0)
     fringe.push(startNode, 0)
-    visitedLocation = set()
+    visitedNode = dict()
+    # [location: cost]
+    visitedNode[startLocation] = 0
 
     while True:
         if fringe.isEmpty():
             return None
         # node[0] is location, while node[1] is path, while node[2] is cumulative cost
         node = fringe.pop()
-        visitedLocation.add(node[0])
         if problem.isGoalState(node[0]):
             return node[1]
         successors = problem.getSuccessors(node[0])
         for item in successors:
-            if item[0] in visitedLocation: continue
-            # Accumulate cost, and add heuristic cost for priority sort
+            # Cumulative cost
             cost = node[2] + item[2]
-            fringe.push((item[0], node[1] + [item[1]], cost), cost + heuristic(item[0], problem))
+            totalCost = cost + heuristic(item[0], problem)
+            isVisited = item[0] in visitedNode.keys()
+            badChoice = totalCost > visitedNode.get(item[0])
+            # If new node is visited and its totalCost is bigger than previous path, ignore.
+            if not (isVisited and badChoice):
+                visitedNode[item[0]] = totalCost
+                if isVisited:
+                    fringe.update((item[0], node[1] + [item[1]], cost), totalCost)
+                else:
+                    fringe.push((item[0], node[1] + [item[1]], cost), totalCost)
 
     return None
 
