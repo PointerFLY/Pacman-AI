@@ -100,9 +100,7 @@ def depthFirstSearch(problem):
     fringe.push(startNode)
     visitedLocation = set()
 
-    while True:
-        if fringe.isEmpty():
-            return None
+    while not fringe.isEmpty():
         # node[0] is location, while node[1] is path
         node = fringe.pop()
         visitedLocation.add(node[0])
@@ -134,9 +132,7 @@ def breadthFirstSearch(problem):
     visitedLocation = set()
     visitedLocation.add(startLocation)
 
-    while True:
-        if fringe.isEmpty():
-            return None
+    while not fringe.isEmpty():
         # node[0] is location, while node[1] is path
         node = fringe.pop()
         if problem.isGoalState(node[0]):
@@ -168,9 +164,7 @@ def uniformCostSearch(problem):
     # [location: cost]
     visitedNode[startLocation] = 0
 
-    while True:
-        if fringe.isEmpty():
-            return None
+    while not fringe.isEmpty():
         # node[0] is location, while node[1] is path, while node[2] is cumulative cost
         node = fringe.pop()
         # visitedNode.add(node[0])
@@ -218,9 +212,7 @@ def aStarSearch(problem, heuristic=nullHeuristic):
     # [location: cost]
     visitedNode[startLocation] = 0
 
-    while True:
-        if fringe.isEmpty():
-            return None
+    while not fringe.isEmpty():
         # node[0] is location, while node[1] is path, while node[2] is cumulative cost
         node = fringe.pop()
         if problem.isGoalState(node[0]):
