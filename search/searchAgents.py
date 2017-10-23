@@ -399,6 +399,7 @@ def cornersHeuristic(state, problem):
         remainedCorners.append(corners[idx])
 
     distanceList = []
+    # Get all corner's maze distance from current position
     for corner in remainedCorners:
         # For efficiency, pacman may walk though an old state
         key = location + corner
@@ -409,6 +410,7 @@ def cornersHeuristic(state, problem):
             problem.heuristicInfo[key] = distance
         distanceList.append(distance)
 
+    # Return max corner distance as heuristic
     return max(distanceList)
 
 
@@ -505,16 +507,13 @@ def foodHeuristic(state, problem):
     position, foodGrid = state
     "*** YOUR CODE HERE ***"
 
-    try:
-        problem.heuristicInfo['dist']
-    except:
-        problem.heuristicInfo['dist'] = dict()
     foods = foodGrid.asList()
 
     if not foods:
         return 0
 
     distanceList = []
+    # Get all food's maze distance from current position
     for food in foods:
         # For efficiency, pacman may walk though an old state
         key = position + food
@@ -525,6 +524,7 @@ def foodHeuristic(state, problem):
             problem.heuristicInfo[key] = distance
         distanceList.append(distance)
 
+    # Return max food distance as heuristic
     return max(distanceList)
 
 class ClosestDotSearchAgent(SearchAgent):
