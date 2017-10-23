@@ -509,26 +509,23 @@ def foodHeuristic(state, problem):
         problem.heuristicInfo['dist']
     except:
         problem.heuristicInfo['dist'] = dict()
-        problem.heuristicInfo['count'] = 0
-    currentX,currentY = position
     foods = foodGrid.asList()
 
     if not foods:
         return 0
 
-    def getDist(x):
-        if tuple(list(position)+list(x)) in problem.heuristicInfo['dist'].keys():
-            problem.heuristicInfo['count']+=1
-            return problem.heuristicInfo['dist'][tuple(list(position)+list(x))]
+    distanceList = []
+    for food in foods:
+        # For efficiency, pacman may walk though an old state
+        key = position + food
+        if key in problem.heuristicInfo.keys():
+            distance = problem.heuristicInfo[key]
         else:
-            dist = mazeDistance(position, x, problem.startingGameState)
-            problem.heuristicInfo['dist'][tuple(list(position)+list(x))]=dist
-            return dist
-    distanceToFoods = map(getDist, foods)
-    # closestDist = min(distanceToFoods)
-    farthestDist = max(distanceToFoods)
+            distance = mazeDistance(position, food, problem.startingGameState)
+            problem.heuristicInfo[key] = distance
+        distanceList.append(distance)
 
-    return farthestDist
+    return max(distanceList)
 
 class ClosestDotSearchAgent(SearchAgent):
     "Search for all food using a sequence of searches"
