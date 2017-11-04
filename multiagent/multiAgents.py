@@ -75,39 +75,46 @@ class ReflexAgent(Agent):
 
         "*** YOUR CODE HERE ***"
 
-        score = successorGameState.getScore() - currentGameState.getScore()
+        # Does the action keep safe distance with ghosts
 
-        distances = [manhattanDistance(newPos, state.getPosition()) for state in newGhostStates]
-        minDis = min(distances)
+        ghostDistances = [manhattanDistance(newPos, state.getPosition()) for state in newGhostStates]
+        minGhostDistance = min(ghostDistances)
 
-        foods = newFood.asList()
-        foodsDis = [manhattanDistance(newPos, food) for food in foods]
-        if foodsDis:
-            nearest = min(foodsDis)
-        else:
-            nearest = 0
+        # Does the action increase the score?
 
-        oldPos = currentGameState.getPacmanPosition()
-        oldFoods = currentGameState.getFood().asList()
-        oldFoodsDis = [manhattanDistance(oldPos, food) for food in oldFoods]
-        oldNearest = min(oldFoodsDis)
+        gotScore = successorGameState.getScore() - currentGameState.getScore()
 
-        isNearer = oldNearest - nearest
+        # Does the action make the nearest food nearer?
 
-        if minDis <= 1:
+        pos = currentGameState.getPacmanPosition()
+        foods = currentGameState.getFood().asList()
+        foodDistances = [manhattanDistance(pos, food) for food in foods]
+        nearestFoodDistance = min(foodDistances)
+
+        newFoods = newFood.asList()
+        newFoodsDistances = [manhattanDistance(newPos, food) for food in foods]
+        newNearestFoodDistance = 0 if not newFoodsDistances else min(newFoodsDistances)
+
+        isNearer = nearestFoodDistance - newNearestFoodDistance
+
+        # Keep direction to avoid meaningless random movements when upon criteria are not satisfied
+
+        direction = currentGameState.getPacmanState().getDirection()
+        newDirection = successorGameState.getPacmanState().getDirection()
+
+        # Reflex formula
+
+        if minGhostDistance <= 1 or action == Directions.STOP:
             return 0
+        if gotScore > 0:
+            return 8
+        elif isNearer > 0:
+            return 4
+        elif action == direction:
+            return 2
         else:
-            if score > 0:
-                return 1
-            elif isNearer >= 0:
-                return 0.5
-            else:
-                oldDir = currentGameState.getPacmanState().getDirection()
-                newDir = successorGameState.getPacmanState().getDirection()
-                if oldDir == newDir:
-                    return 0.3
-                else:
-                    return 0.1
+            return 1
+   
 
 def scoreEvaluationFunction(currentGameState):
     """
