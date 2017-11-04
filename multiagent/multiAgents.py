@@ -74,7 +74,40 @@ class ReflexAgent(Agent):
         newScaredTimes = [ghostState.scaredTimer for ghostState in newGhostStates]
 
         "*** YOUR CODE HERE ***"
-        return successorGameState.getScore()
+
+        score = successorGameState.getScore() - currentGameState.getScore()
+
+        distances = [manhattanDistance(newPos, state.getPosition()) for state in newGhostStates]
+        minDis = min(distances)
+
+        foods = newFood.asList()
+        foodsDis = [manhattanDistance(newPos, food) for food in foods]
+        if foodsDis:
+            nearest = min(foodsDis)
+        else:
+            nearest = 0
+
+        oldPos = currentGameState.getPacmanPosition()
+        oldFoods = currentGameState.getFood().asList()
+        oldFoodsDis = [manhattanDistance(oldPos, food) for food in oldFoods]
+        oldNearest = min(oldFoodsDis)
+
+        isNearer = oldNearest - nearest
+
+        if minDis <= 1:
+            return 0
+        else:
+            if score > 0:
+                return 1
+            elif isNearer >= 0:
+                return 0.5
+            else:
+                oldDir = currentGameState.getPacmanState().getDirection()
+                newDir = successorGameState.getPacmanState().getDirection()
+                if oldDir == newDir:
+                    return 0.3
+                else:
+                    return 0.1
 
 def scoreEvaluationFunction(currentGameState):
     """

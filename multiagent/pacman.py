@@ -672,7 +672,7 @@ if __name__ == '__main__':
 
     > python pacman.py
 
-    See the usage string for more details.
+    See the usage string for ails.more det
 
     > python pacman.py --help
     """

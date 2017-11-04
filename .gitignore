@@ -101,3 +101,7 @@ ENV/
 .mypy_cache/
 
 .idea/workspace.xml
+.idea/markdown-navigator.xml
+.idea/markdown-navigator/
+.idea/preferred-vcs.xml
+tracking/test_cases/.svn/
