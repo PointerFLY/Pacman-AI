@@ -181,31 +181,28 @@ class MinimaxAgent(MultiAgentSearchAgent):
             for action in actions:
                 newState = gameState.generateSuccessor(1, action)
                 value = max(value, minValue(newState, agentNum - 1))
-                return value
+            return value
 
         def minValue(state, num):
-            num += 1
-            if state.isWin() or state.isLose() or num == agentNum:
+            num -= 1
+            if state.isWin() or state.isLose() or num == 0:
                 return self.evaluationFunction(state)
 
-            actions = gameState.getLegalActions(1)
+            actions = state.getLegalActions(1)
             value = 100000000
             for action in actions:
-                newState = gameState.generateSuccessor(1, action)
-
-                if num >= agentNum:
-                    value = min(value, minValue(newState, num))
-                else:
-                    value = min(value, maxValue(newState))
-                return value
+                newState = state.generateSuccessor(1, action)
+                value = min(value, minValue(newState, num))
+            return value
 
         legalActions = gameState.getLegalActions(0)
         values = list()
         for action in legalActions:
             nextState = gameState.generateSuccessor(0, action)
-            values.append(minValue(nextState, agentNum - 1))
-
-        print values
+            if nextState.isWin() or nextState.isLose():
+                values.append(self.evaluationFunction(nextState))
+            else:
+                values.append(minValue(nextState, agentNum))
 
         bestValue = max(values)
         bestIndices = [index for index in range(len(values)) if values[index] == bestValue]
