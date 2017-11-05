@@ -187,11 +187,11 @@ class MinimaxAgent(MultiAgentSearchAgent):
             num -= 1
             if state.isWin() or state.isLose() or num == 0:
                 return self.evaluationFunction(state)
-
-            actions = state.getLegalActions(1)
+            agentIdx = agentNum - num
+            actions = state.getLegalActions(agentIdx)
             value = 100000000
             for action in actions:
-                newState = state.generateSuccessor(1, action)
+                newState = state.generateSuccessor(agentIdx, action)
                 value = min(value, minValue(newState, num))
             return value
 
