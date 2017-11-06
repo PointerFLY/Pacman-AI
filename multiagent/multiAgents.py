@@ -218,7 +218,7 @@ class AlphaBetaAgent(MultiAgentSearchAgent):
 
                 # Is it the last ghost?
                 if agentIndex == state.getNumAgents() - 1:
-                    newV = maxValue(newState, 0, depth, a, b)
+                    newV = maxValue(newState, depth, a, b)
                 else:
                     newV = minValue(newState, agentIndex + 1, depth, a, b)
 
@@ -228,11 +228,8 @@ class AlphaBetaAgent(MultiAgentSearchAgent):
                 b = min(b, v)
             return v
 
-        def maxValue(state, agentIndex, depth, a, b):
-            if agentIndex != 0:
-                raise Exception('maxValue called when agentIndex != 0')
-
-            legalActions = state.getLegalActions(agentIndex)
+        def maxValue(state, depth, a, b):
+            legalActions = state.getLegalActions(0)
             if not legalActions or depth == self.depth:
                 return self.evaluationFunction(state)
 
@@ -241,8 +238,8 @@ class AlphaBetaAgent(MultiAgentSearchAgent):
             if depth == 0:
                 bestAction = legalActions[0]
             for action in legalActions:
-                newState = state.generateSuccessor(agentIndex, action)
-                newV = minValue(newState, agentIndex+1, depth+1, a, b)
+                newState = state.generateSuccessor(0, action)
+                newV = minValue(newState, 1, depth+1, a, b)
                 if newV > v:
                     v = newV
                     if depth == 0:
@@ -255,7 +252,7 @@ class AlphaBetaAgent(MultiAgentSearchAgent):
                 return bestAction
             return v
 
-        bestAction = maxValue(gameState, 0, 0, -Infinity, Infinity)
+        bestAction = maxValue(gameState, 0, -Infinity, Infinity)
         return bestAction
 
 class ExpectimaxAgent(MultiAgentSearchAgent):
@@ -271,7 +268,14 @@ class ExpectimaxAgent(MultiAgentSearchAgent):
           legal moves.
         """
         "*** YOUR CODE HERE ***"
-        util.raiseNotDefined()
+
+        def maxValue(state, depth):
+            legalActions = gameState.getLegalActions(0)
+
+        def expValue(state, agentIndex, depth):
+            legalActions = gameState.getLegalActions()
+
+
 
 def betterEvaluationFunction(currentGameState):
     """
