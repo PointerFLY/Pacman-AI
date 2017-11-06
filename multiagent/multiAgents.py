@@ -205,36 +205,28 @@ class AlphaBetaAgent(MultiAgentSearchAgent):
         """
         "*** YOUR CODE HERE ***"
 
+        Infinity = 1000000
+
         def minValue(state, agentIndex, depth, a, b):
             legalActions = state.getLegalActions(agentIndex)
             if not legalActions:
                 return self.evaluationFunction(state)
 
-            if agentIndex == state.getNumAgents() - 1:
-                v = 1000000
-                for action in legalActions:
-                    newState = state.generateSuccessor(agentIndex, action)
-                    v = min(v, maxValue(newState, 0, depth, a, b))
-                    if v < a:
-                        return v
-                    b = min(b, v)
-                return v
-            elif agentIndex == 1:
-                v = 1000000
-                for action in legalActions:
-                    newState = state.generateSuccessor(agentIndex, action)
-                    v = min(v, minValue(newState, agentIndex+1, depth, a, b))
-                    if v < a:
-                        return v
-                    b = min(b, v)
-                return v
-            else:
-                v = 1000000
-                for action in legalActions:
-                    newState = state.generateSuccessor(agentIndex, action)
-                    v = min(v, minValue(newState, agentIndex+1, depth, a, b))
-                    a = -1000000
-                return v
+            v = Infinity
+            for action in legalActions:
+                newState = state.generateSuccessor(agentIndex, action)
+
+                # Is it the last ghost?
+                if agentIndex == state.getNumAgents() - 1:
+                    newV = maxValue(newState, 0, depth, a, b)
+                else:
+                    newV = minValue(newState, agentIndex + 1, depth, a, b)
+
+                v = min(v, newV)
+                if v < a:
+                    return v
+                b = min(b, v)
+            return v
 
         def maxValue(state, agentIndex, depth, a, b):
             if agentIndex != 0:
@@ -244,33 +236,27 @@ class AlphaBetaAgent(MultiAgentSearchAgent):
             if not legalActions or depth == self.depth:
                 return self.evaluationFunction(state)
 
-            v = -1000000
+            v = -Infinity
+            # For enable second ply pruning
+            if depth == 0:
+                bestAction = legalActions[0]
             for action in legalActions:
                 newState = state.generateSuccessor(agentIndex, action)
-                v = max(v, minValue(newState, agentIndex+1, depth+1, a, b))
+                newV = minValue(newState, agentIndex+1, depth+1, a, b)
+                if newV > v:
+                    v = newV
+                    if depth == 0:
+                        bestAction = action
                 if v > b:
                     return v
                 a = max(a, v)
+
+            if depth == 0:
+                return bestAction
             return v
 
-        v = -1000000
-        a = -1000000
-        b = 1000000
-        legalActions = gameState.getLegalActions(0)
-        bestAction = legalActions[0]
-        for action in legalActions:
-            newState = gameState.generateSuccessor(0, action)
-            newV = minValue(newState, 1, 1, a, b)
-            if newV > v:
-                v = newV
-                bestAction = action
-            a = max(a, v)
+        bestAction = maxValue(gameState, 0, 0, -Infinity, Infinity)
         return bestAction
-
-
-        # legalActions = gameState.getLegalActions(0)
-        # bestAction = max(legalActions, key=lambda action: minValue(gameState.generateSuccessor(0, action), 1, 1, -1000000, 1000000))
-        # return bestAction
 
 class ExpectimaxAgent(MultiAgentSearchAgent):
     """
