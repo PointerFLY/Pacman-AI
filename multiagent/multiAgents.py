@@ -267,11 +267,36 @@ class ExpectimaxAgent(MultiAgentSearchAgent):
         "*** YOUR CODE HERE ***"
 
         def maxValue(state, depth):
-            legalActions = gameState.getLegalActions(0)
+            legalActions = state.getLegalActions(0)
+            if not legalActions or depth == self.depth:
+                return self.evaluationFunction(state)
+
+            v = max(expValue(state.generateSuccessor(0, action), 0+1, depth+1) for action in legalActions)
+            return v
 
         def expValue(state, agentIndex, depth):
-            legalActions = gameState.getLegalActions()
+            legalActions = state.getLegalActions(agentIndex)
+            if not legalActions:
+                return self.evaluationFunction(state)
 
+            probability = 1.0 / len(legalActions)
+            v = 0
+            for action in legalActions:
+                newState = state.generateSuccessor(agentIndex, action)
+                if agentIndex == state.getNumAgents() - 1:
+                    v += maxValue(newState, depth)
+                else:
+                    v += expValue(newState, agentIndex+1, depth) * probability
+            return v
+
+        legalActions = gameState.getLegalActions()
+        bestAction = max(legalActions, key=lambda action: expValue(gameState.generateSuccessor(0, action), 1, 1))
+
+        # for action in legalActions:
+        #     v = expValue(gameState.generateSuccessor(0, action), 1, 1)
+        #     print action + str(v)
+
+        return bestAction
 
 
 def betterEvaluationFunction(currentGameState):
