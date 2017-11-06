@@ -177,19 +177,16 @@ class MinimaxAgent(MultiAgentSearchAgent):
 
             # When all ghosts moved, it's pacman's turn
             if agentIndex == state.getNumAgents() - 1:
-                return min(maxValue(state.generateSuccessor(agentIndex, action), 0, depth) for action in legalActions)
+                return min(maxValue(state.generateSuccessor(agentIndex, action), depth) for action in legalActions)
             else:
                 return min(minValue(state.generateSuccessor(agentIndex, action), agentIndex+1, depth) for action in legalActions)
 
-        def maxValue(state, agentIndex, depth):
-            if agentIndex != 0:
-                raise Exception('maxValue called when agentIndex != 0 (agent != pacman)')
-
-            legalActions = state.getLegalActions(agentIndex)
+        def maxValue(state, depth):
+            legalActions = state.getLegalActions(0)
             if not legalActions or depth == self.depth:
                 return self.evaluationFunction(state)
 
-            return max(minValue(state.generateSuccessor(agentIndex, action), agentIndex+1, depth+1) for action in legalActions)
+            return max(minValue(state.generateSuccessor(0, action), 0+1, depth+1) for action in legalActions)
 
         bestAction = max(gameState.getLegalActions(0), key=lambda action: minValue(gameState.generateSuccessor(0, action), 1, 1))
         return bestAction
@@ -220,7 +217,7 @@ class AlphaBetaAgent(MultiAgentSearchAgent):
                 if agentIndex == state.getNumAgents() - 1:
                     newV = maxValue(newState, depth, a, b)
                 else:
-                    newV = minValue(newState, agentIndex + 1, depth, a, b)
+                    newV = minValue(newState, agentIndex+1, depth, a, b)
 
                 v = min(v, newV)
                 if v < a:
@@ -239,7 +236,7 @@ class AlphaBetaAgent(MultiAgentSearchAgent):
                 bestAction = legalActions[0]
             for action in legalActions:
                 newState = state.generateSuccessor(0, action)
-                newV = minValue(newState, 1, depth+1, a, b)
+                newV = minValue(newState, 0+1, depth+1, a, b)
                 if newV > v:
                     v = newV
                     if depth == 0:
