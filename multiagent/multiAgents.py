@@ -171,36 +171,24 @@ class MinimaxAgent(MultiAgentSearchAgent):
         "*** YOUR CODE HERE ***"
 
         def minValue(state, agentIndex, depth):
-            if state.isWin() or state.isLose():
+            legalActions = state.getLegalActions(agentIndex)
+            if not legalActions:
                 return self.evaluationFunction(state)
 
             if agentIndex == state.getNumAgents() - 1:
-                legalActions = state.getLegalActions(agentIndex)
-                v = 10000000
-                for action in legalActions:
-                    newState = state.generateSuccessor(agentIndex, action)
-                    v = min(v, maxValue(newState, 0, depth))
+                return min(maxValue(state.generateSuccessor(agentIndex, action), 0, depth) for action in legalActions)
             else:
-                legalActions = state.getLegalActions(agentIndex)
-                v = 10000000
-                for action in legalActions:
-                    newState = state.generateSuccessor(agentIndex, action)
-                    v = min(v, minValue(newState, agentIndex + 1, depth))
-            return v
+                return min(minValue(state.generateSuccessor(agentIndex, action), agentIndex+1, depth) for action in legalActions)
 
         def maxValue(state, agentIndex, depth):
-            if state.isWin() or state.isLose() or depth == self.depth:
-                return self.evaluationFunction(state)
-
             if agentIndex != 0:
                 raise Exception('maxValue called when agentIndex != 0')
 
             legalActions = state.getLegalActions(agentIndex)
-            v = -10000000
-            for action in legalActions:
-                newState = state.generateSuccessor(agentIndex, action)
-                v = max(v, minValue(newState, agentIndex + 1, depth + 1))
-            return v
+            if not legalActions or depth == self.depth:
+                return self.evaluationFunction(state)
+
+            return max(minValue(state.generateSuccessor(agentIndex, action), agentIndex+1, depth+1) for action in legalActions)
 
         bestAction = max(gameState.getLegalActions(0), key=lambda action: minValue(gameState.generateSuccessor(0, action), 1, 1))
         return bestAction
