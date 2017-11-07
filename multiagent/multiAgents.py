@@ -301,7 +301,19 @@ def betterEvaluationFunction(currentGameState):
       DESCRIPTION: <write something here so we know what you did>
     """
     "*** YOUR CODE HERE ***"
-    util.raiseNotDefined()
+
+    position = currentGameState.getPacmanPosition()
+    foods = currentGameState.getFood().asList()
+    closestFoodDis = min(manhattanDistance(position, food) for food in foods) if foods else 0.5
+    score = currentGameState.getScore()
+
+    '''
+      Sometimes pacman will stay put even when there's a dot right besides, because 
+      stop action has the same priority with other actions, so might be chosen when
+      multiple actions have the same evaluation, upon which we can improve maybe.
+    '''
+    evaluation = 1.0 / closestFoodDis + score
+    return evaluation
 
 # Abbreviation
 better = betterEvaluationFunction
