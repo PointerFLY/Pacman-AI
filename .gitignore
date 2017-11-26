@@ -105,3 +105,4 @@ ENV/
 .idea/markdown-navigator/
 .idea/preferred-vcs.xml
 tracking/test_cases/.svn/
+*.test_output
