@@ -4,10 +4,10 @@ if __name__ == '__main__':
     TestCase = True
 
     if TestCase:
-        params = 'gridwoard.py -a value -i 5'
+        params = 'autograder.py'
         sys.argv = params.split(' ')
-        execfile('gridworld.py')
+        execfile('autograder.py')
     else:
-        params = 'pacman.py -p MinimaxAgent -l openClassic -a depth=3 --frameTime 3'
+        params = 'pacman.py -p ApproximateQAgent -a extractor=SimpleExtractor -x 50 -n 60 -l mediumClassic'
         sys.argv = params.split(' ')
         execfile('pacman.py')
