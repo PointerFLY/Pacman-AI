@@ -96,12 +96,9 @@ class ValueIterationAgent(ValueEstimationAgent):
             return None
 
         actions = self.mdp.getPossibleActions(state)
-        counter = util.Counter()
-        for action in actions:
-            v = self.computeQValueFromValues(state, action)
-            counter[action] = v
+        bestAction = max(actions, key=lambda x: self.computeQValueFromValues(state, x))
 
-        return counter.argMax()
+        return bestAction
 
     def getPolicy(self, state):
         return self.computeActionFromValues(state)
