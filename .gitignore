@@ -106,3 +106,6 @@ ENV/
 .idea/preferred-vcs.xml
 tracking/test_cases/.svn/
 *.test_output
+
+# idea
+.idea/
