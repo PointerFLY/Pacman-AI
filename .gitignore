@@ -107,5 +107,6 @@ ENV/
 tracking/test_cases/.svn/
 *.test_output
 
-# idea
+# Ignore all idea files
 .idea/
+classification/data/
