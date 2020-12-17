@@ -61,7 +61,55 @@ class MiraClassifier:
         representing a vector of values.
         """
         "*** YOUR CODE HERE ***"
-        util.raiseNotDefined()
+
+        bestAccuracy = 0
+        bestWeights = self.weights.copy()
+
+        for C in Cgrid:
+            weights = self.weights.copy()
+
+            for iteration in range(self.max_iterations):
+                print "Starting iteration ", iteration, "..."
+                for i in range(len(trainingData)):
+                    row = trainingData[i]
+
+                    vectors = util.Counter()
+                    for l in self.legalLabels:
+                        vectors[l] = weights[l] * row
+
+                    predict = vectors.argMax()
+                    real = trainingLabels[i]
+
+                    tao = ((weights[predict] - weights[real]) * row + 1.0) / (row * row * 2)
+                    tao = min(C, tao)
+
+                    rowClone = row.copy()
+                    rowClone.divideAll(1 / tao)
+
+                    if predict != real:
+                        weights[real] += rowClone
+                        weights[predict] -= rowClone
+
+            correctCount = 0
+            for i in range(len(validationData)):
+                row = validationData[i]
+
+                vectors = util.Counter()
+                for l in self.legalLabels:
+                    vectors[l] = weights[l] * row
+
+                predict = vectors.argMax()
+                real = validationLabels[i]
+                if predict == real:
+                    correctCount += 1
+
+            accuracy = 1.0 * correctCount / len(validationData)
+
+            if accuracy > bestAccuracy:
+                bestWeights = weights
+                bestAccuracy = accuracy
+
+        self.weights = bestWeights
 
     def classify(self, data ):
         """
