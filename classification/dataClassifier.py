@@ -124,7 +124,20 @@ def enhancedPacmanFeatures(state, action):
     """
     features = util.Counter()
     "*** YOUR CODE HERE ***"
-    util.raiseNotDefined()
+
+    successor = state.generateSuccessor(0, action)
+    ghosts = successor.getGhostPositions()
+    pacman = successor.getPacmanPosition()
+    foods = successor.getFood().asList()
+
+    movement = util.manhattanDistance(pacman, state.getPacmanPosition())
+    minGhostDist = min([util.manhattanDistance(g, pacman) for g in ghosts])
+    minFoodDist = min([util.manhattanDistance(f, pacman) for f in foods]) if foods else 0
+
+    features["movement"] = movement
+    features["minGhostDist"] = minGhostDist
+    features["minFoodDist"] = minFoodDist
+
     return features
 
 
