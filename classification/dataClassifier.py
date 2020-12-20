@@ -78,11 +78,30 @@ def enhancedFeatureExtractorDigit(datum):
     features =  basicFeatureExtractorDigit(datum)
 
     "*** YOUR CODE HERE ***"
-    util.raiseNotDefined()
+
+    def dfs(x, y):
+        if not (0 <= x < DIGIT_DATUM_WIDTH and 0 <= y < DIGIT_DATUM_HEIGHT):
+            return
+        if (x, y) in visited or datum.getPixel(x, y) != 0:
+            return
+
+        visited.add((x, y))
+        dfs(x-1, y)
+        dfs(x+1, y)
+        dfs(x, y-1)
+        dfs(x, y+1)
+
+    isolatedCount = 0
+    visited = set()
+    for x in range(DIGIT_DATUM_WIDTH):
+        for y in range(DIGIT_DATUM_HEIGHT):
+            if (x, y) not in visited and datum.getPixel(x, y) == 0:
+                isolatedCount += 1
+                dfs(x, y)
+
+    features["loopCount"] = isolatedCount - 1
 
     return features
-
-
 
 def basicFeatureExtractorPacman(state):
     """
@@ -188,7 +207,6 @@ def analysis(classifier, guesses, testLabels, testData, rawTestData, printImage)
     #         print "Predicted %d; truth is %d" % (prediction, truth)
     #         print "Image: "
     #         print rawTestData[i]
-    #         break
 
 
 ## =====================
