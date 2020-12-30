@@ -289,9 +289,6 @@ class CornersProblem(search.SearchProblem):
         # in initializing the problem
         "*** YOUR CODE HERE ***"
 
-        self.gameState = startingGameState
-        self.heuristicInfo = dict()
-
     def getStartState(self):
         """
         Returns the start state (in your state space, not the full Pacman state
@@ -390,28 +387,13 @@ def cornersHeuristic(state, problem):
 
     "*** YOUR CODE HERE ***"
 
-    location = state[0]
-    cornersIndexes = state[1]
-    if not cornersIndexes:
+    position = state[0]
+    cornersIndices = state[1]
+    if not cornersIndices:
         return 0
-    remainedCorners = []
-    for idx in cornersIndexes:
-        remainedCorners.append(corners[idx])
 
-    distanceList = []
-    # Get all corner's maze distance from current position
-    for corner in remainedCorners:
-        # For efficiency, pacman may walk though an old state
-        key = location + corner
-        if key in problem.heuristicInfo.keys():
-            distance = problem.heuristicInfo[key]
-        else:
-            distance = mazeDistance(location, corner, problem.gameState)
-            problem.heuristicInfo[key] = distance
-        distanceList.append(distance)
-
-    # Return max corner distance as heuristic
-    return max(distanceList)
+    # max manhattan distance among all remained corners
+    return max([util.manhattanDistance(position, corners[idx]) for idx in cornersIndices])
 
 
 class AStarCornersAgent(SearchAgent):
@@ -508,24 +490,24 @@ def foodHeuristic(state, problem):
     "*** YOUR CODE HERE ***"
 
     foods = foodGrid.asList()
-
     if not foods:
         return 0
 
-    distanceList = []
-    # Get all food's maze distance from current position
+    maxDist = 0
     for food in foods:
-        # For efficiency, pacman may walk though an old state
         key = position + food
-        if key in problem.heuristicInfo.keys():
+        if key in problem.heuristicInfo:
             distance = problem.heuristicInfo[key]
         else:
+            # Use manhattan distance can get 6/7
             distance = mazeDistance(position, food, problem.startingGameState)
             problem.heuristicInfo[key] = distance
-        distanceList.append(distance)
 
-    # Return max food distance as heuristic
-    return max(distanceList)
+        if distance > maxDist:
+            maxDist = distance
+
+    return maxDist
+
 
 class ClosestDotSearchAgent(SearchAgent):
     "Search for all food using a sequence of searches"

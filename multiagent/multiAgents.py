@@ -76,39 +76,28 @@ class ReflexAgent(Agent):
         "*** YOUR CODE HERE ***"
 
         # Does the action keep safe distance with ghosts
-
-        ghostDistances = [manhattanDistance(newPos, state.getPosition()) for state in newGhostStates]
-        minGhostDistance = min(ghostDistances)
+        minGhostDistance = min([manhattanDistance(newPos, state.getPosition()) for state in newGhostStates])
 
         # Does the action increase the score?
-
-        gotScore = successorGameState.getScore() - currentGameState.getScore()
+        scoreDiff = successorGameState.getScore() - currentGameState.getScore()
 
         # Does the action make the nearest food nearer?
-
         pos = currentGameState.getPacmanPosition()
-        foods = currentGameState.getFood().asList()
-        foodDistances = [manhattanDistance(pos, food) for food in foods]
-        nearestFoodDistance = min(foodDistances)
-
-        newFoods = newFood.asList()
-        newFoodsDistances = [manhattanDistance(newPos, food) for food in foods]
+        nearestFoodDistance = min([manhattanDistance(pos, food) for food in currentGameState.getFood().asList()])
+        newFoodsDistances = [manhattanDistance(newPos, food) for food in newFood.asList()]
         newNearestFoodDistance = 0 if not newFoodsDistances else min(newFoodsDistances)
-
-        isNearer = nearestFoodDistance - newNearestFoodDistance
+        isFoodNearer = nearestFoodDistance - newNearestFoodDistance
 
         # Keep direction to avoid meaningless random movements when upon criteria are not satisfied
-
         direction = currentGameState.getPacmanState().getDirection()
-        newDirection = successorGameState.getPacmanState().getDirection()
 
         # Reflex formula
 
         if minGhostDistance <= 1 or action == Directions.STOP:
             return 0
-        if gotScore > 0:
+        if scoreDiff > 0:
             return 8
-        elif isNearer > 0:
+        elif isFoodNearer > 0:
             return 4
         elif action == direction:
             return 2
@@ -236,7 +225,7 @@ class AlphaBetaAgent(MultiAgentSearchAgent):
                 return self.evaluationFunction(state)
 
             v = -Infinity
-            # For enable second ply pruning
+            # For enable second play pruning
             if depth == 0:
                 bestAction = legalActions[0]
             for action in legalActions:
